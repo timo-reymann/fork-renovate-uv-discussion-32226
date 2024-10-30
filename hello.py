@@ -1,5 +1,7 @@
+from renovate_sample_library_32226 import hello
+
 def main():
-    print("Hello from sample-app!")
+    print(hello())
 
 
 if __name__ == "__main__":

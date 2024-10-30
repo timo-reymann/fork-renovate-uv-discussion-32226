@@ -6,13 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "boto3==1.35.40",
-    "my-sample-package-renovate==1.2.3"
+    "renovate-sample-library-32226==0.1.0"
 ]
 
 [tool.uv.sources]
-my-sample-package-renovate = { index = "my-private-index" }
+renovate-sample-library-32226 = { index = "cloudsmith-os-index" }
 
 [[tool.uv.index]]
-name = "my-private-index"
-url = "https://my-private-index-url.com/simple"
+name = "cloudsmith-os-index"
+url = "https://dl.cloudsmith.io/public/my-renovate-example-org/open-source-renovate-sample-library-32226/python/simple/"
 explicit = true
