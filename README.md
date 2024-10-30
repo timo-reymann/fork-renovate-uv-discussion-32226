@@ -26,6 +26,10 @@ UV_INDEX_CLOUDSMITH_OS_INDEX_USERNAME=...
 UV_INDEX_CLOUDSMITH_OS_INDEX_PASSWORD=...
 ```
 
+So for checking: If an index is defined as `explicit=True`, then only the packages defined in `tool.uv.sources` relating to that index (`{ index = "cloudsmith-os-index" }`) should be checked against that index. 
+Packages defining an explicit index *should not* be checked against the default (or a different) index.  
+Similarly, any package that's defined and that is *not* in `tool.uv.sources` should *not* be checked against an explicit index.
+
 ## Link to the Renovate issue or Discussion
 
 [Discussion #32226](https://github.com/renovatebot/renovate/discussions/32226)
