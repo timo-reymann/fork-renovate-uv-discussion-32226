@@ -6,13 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "boto3==1.35.40",
-    "renovate-sample-library-32226==0.1.0"
+    "script-background-music==1.5.1"
 ]
 
 [tool.uv.sources]
-renovate-sample-library-32226 = { index = "cloudsmith-os-index" }
+script-background-music = { index = "private-index" }
 
 [[tool.uv.index]]
-name = "cloudsmith-os-index"
-url = "https://dl.cloudsmith.io/public/my-renovate-example-org/open-source-renovate-sample-library-32226/python/simple/"
+name = "private-index"
+url = "https://gitlab.com/api/v4/projects/64242199/packages/pypi/simple"
 explicit = true
