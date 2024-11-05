@@ -6,9 +6,9 @@
   "includeForks": true,
   "packageRules": [
     {
-      "matchPackageNames": ["renovate-sample-library-32226"],
+      "matchPackageNames": ["script-background-music"],
       "registryUrls": [
-        "https://dl.cloudsmith.io/public/my-renovate-example-org/open-source-renovate-sample-library-32226/python/simple/"
+        "https://gitlab.com/api/v4/projects/64242199/packages/pypi/simple"
       ]
     }
   ]
