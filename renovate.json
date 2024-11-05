@@ -3,16 +3,20 @@
     "github>timo-reymann/renovate-config"
   ],
   "dependencyDashboard": true,
-  "includeForks": true,
+  "forkProcessing": "enabled",
   "packageRules": [
     {
-      "matchDatasources": ["pypi"],
+      "matchDatasources": [
+        "pypi"
+      ],
       "registryUrls": [
         "https://pypi.org/simple"
       ]
     },
     {
-      "matchPackageNames": ["script-background-music"],
+      "matchPackageNames": [
+        "script-background-music"
+      ],
       "registryUrls": [
         "https://gitlab.com/api/v4/projects/64242199/packages/pypi/simple"
       ]
