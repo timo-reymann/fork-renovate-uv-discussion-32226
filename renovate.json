@@ -1,5 +1,6 @@
 {
   "extends": [
     "github>timo-reymann/renovate-config"
-  ]
+  ],
+  "dependencyDashboard": true
 }
