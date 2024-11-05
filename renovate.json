@@ -3,5 +3,13 @@
     "github>timo-reymann/renovate-config"
   ],
   "dependencyDashboard": true,
-  "includeForks": true
+  "includeForks": true,
+  "packageRules": [
+    {
+      "matchPackageNames": ["renovate-sample-library-32226"],
+      "registryUrls": [
+        "https://dl.cloudsmith.io/public/my-renovate-example-org/open-source-renovate-sample-library-32226/python/simple/"
+      ]
+    }
+  ]
 }
