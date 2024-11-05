@@ -6,7 +6,7 @@
   "includeForks": true,
   "packageRules": [
     {
-      "matchDataSources": ["pypi"],
+      "matchDatasources": ["pypi"],
       "registryUrls": [
         "https://pypi.org/simple"
       ]
