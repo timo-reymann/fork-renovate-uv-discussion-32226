@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "boto3==1.35.54",
-    "script-background-music==1.5.1"
+    "script-background-music==1.6.0"
 ]
 
 [tool.uv.sources]
