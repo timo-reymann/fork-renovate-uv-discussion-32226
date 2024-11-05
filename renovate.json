@@ -10,8 +10,7 @@
         "script-background-music"
       ],
       "registryUrls": [
-        "https://gitlab.com/api/v4/projects/64242199/packages/pypi/simple",
-        "https://pypi.org/simple"
+        "https://gitlab.com/api/v4/projects/64242199/packages/pypi/simple"
       ]
     }
   ]
